@@ -1,9 +1,11 @@
-# Auto Unix Socket O IPC
-#programming #golang #services 
-
 ---
+title: "Go - Unix Socket or IPC"
+author: "Jaeverba"
 created: 2028-09-09T20:40:14+01:00
 ---
+
+# Auto Unix Socket O IPC
+#programming #golang #services 
 
 Aquí tienes un código en Go que implementa automáticamente Unix domain sockets en Linux/macOS y Named Pipes en Windows usando compilación condicional:
 
