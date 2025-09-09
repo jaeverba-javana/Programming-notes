@@ -1,5 +1,4 @@
-Auto Unix Socket O IPC
-
+# Auto Unix Socket O IPC
 #programming #golang #services
 
 Aquí tienes un código en Go que implementa automáticamente Unix domain sockets en Linux/macOS y Named Pipes en Windows usando compilación condicional:
@@ -246,7 +245,6 @@ func main() {
 ## Compilación
 
 Para compilar automáticamente según la plataforma:
-
 ```bash
 # En Linux/macOS (compilará con ipc_unix.go)
 go build -o servidor
@@ -266,7 +264,6 @@ GOOS=windows go build -o servidor.exe
 4. **Compatibilidad total**: Funciona sin cambios de código en ambas plataformas
 
 Para usar Named Pipes en Windows, necesitas instalar la dependencia:
-
 ```bash
 go get github.com/Microsoft/go-winio
 ```
