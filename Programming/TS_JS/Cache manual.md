@@ -1,3 +1,7 @@
+#programming #js #TS #cache #perplexity
+
+# Cache manual
+
 Para garantizar que siempre se cachee sin depender del ciclo de vida del Service Worker, usa la **Cache API directamente desde tu aplicación** [1][2]. La Cache API está disponible tanto en el Service Worker como en el thread principal del navegador.
 
 ## Solución: Cachear desde el frontend
